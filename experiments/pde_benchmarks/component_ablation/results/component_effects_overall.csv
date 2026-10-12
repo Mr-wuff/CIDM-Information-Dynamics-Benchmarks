@@ -1,0 +1,7 @@
+variant,mean_delta_rmse_pct,median_delta_rmse_pct,positive_task_count,negative_task_count,mean_latency_change_pct,positive_seed_task_pairs,total_seed_task_pairs,conditional_role
+without_boundary_reservoir,5.1763891851817103,4.9800630760212909,5,0,-14.631302831797903,14,15,broadly_beneficial
+without_antisymmetric_flux,17.037819179390745,20.524794219426759,4,1,-9.1802371141909695,13,15,broadly_beneficial
+without_hidden_reservoir,2.6119543997287797,2.6755278352984893,5,0,-9.7354836249745222,11,15,regime_specific
+without_spectral_encoder,3.3760659570635774,1.160978510634856,4,1,2.6548404357587128,10,15,regime_specific
+without_spectral_operator,-4.9796724425551488,-4.4301933967844827,1,4,-8.0607985090701888,5,15,mostly_redundant_or_adverse
+without_channel_rotation,6.5806615065406131,4.035279346339208,5,0,0.86290871916095568,13,15,broadly_beneficial
