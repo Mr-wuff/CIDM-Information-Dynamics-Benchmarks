@@ -1,0 +1,17 @@
+{
+  "pdebench": {
+    "repository": "https://github.com/pdebench/PDEBench",
+    "dataset": "https://doi.org/10.18419/darus-2986",
+    "data_status": "external; not mirrored",
+    "citation": "Takamoto et al., PDEBench (NeurIPS Datasets and Benchmarks, 2022)"
+  },
+  "era5": {
+    "dataset": "https://doi.org/10.24381/cds.adbb2d47",
+    "data_status": "external; not mirrored",
+    "citation": "Copernicus Climate Change Service, ERA5 hourly data on single levels"
+  },
+  "manuscript_tables": {
+    "data_status": "summary only; transcribed from supplied draft",
+    "source_filename": "论文初稿6(1).docx"
+  }
+}
