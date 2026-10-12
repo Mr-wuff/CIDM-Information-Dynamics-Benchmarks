@@ -1,0 +1,17 @@
+task,model,params
+advection_1d,CIDM-Core,496331
+advection_1d,CIDM-Complete,500084
+advection_1d,PDEBench-FNO,499917
+advection_1d,NeuralOperator-FNO,498345
+burgers_1d,CIDM-Core,496331
+burgers_1d,CIDM-Complete,500084
+burgers_1d,PDEBench-FNO,499917
+burgers_1d,NeuralOperator-FNO,498345
+reacdiff_2d,CIDM-Core,484548
+reacdiff_2d,CIDM-Complete,500084
+reacdiff_2d,PDEBench-FNO,512288
+reacdiff_2d,NeuralOperator-FNO,502318
+swe_2d,CIDM-Core,513183
+swe_2d,CIDM-Complete,500038
+swe_2d,PDEBench-FNO,512087
+swe_2d,NeuralOperator-FNO,501637
