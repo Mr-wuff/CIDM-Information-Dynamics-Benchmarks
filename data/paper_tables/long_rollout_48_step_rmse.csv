@@ -1,0 +1,5 @@
+PDE task (48-step RMSE),CIDM-core,CIDM-complete,PDEBench-FNO,NeuralOp-FNO
+Advection 1D,0.82304,0.59943,2.05254,0.11805
+Burgers 1D,0.68294,0.57489,1.66534,0.02516
+Reaction-Diffusion 2D,0.02192,0.24154,0.01415,0.04093
+Shallow Water 2D,0.10202,0.12027,0.09838,0.06763
