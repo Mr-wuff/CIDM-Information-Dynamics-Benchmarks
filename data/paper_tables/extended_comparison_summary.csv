@@ -1,0 +1,9 @@
+Benchmark,CIDM-complete RMSE,Best model and RMSE
+Advection 1D,0.004845,CIDM-Complete 0.004845
+Burgers 1D,0.011398,PDEBench-FNO 0.008920
+Diffusion-Sorption 1D,0.000728,NeuralOperator-FNO 0.000535
+Reaction-Diffusion 1D,0.001967,PDEBench-FNO 0.001417
+Reaction-Diffusion 2D,0.002475,CIDM-Complete 0.002475
+CFD 1D,1.1593,NeuralOperator-FNO 0.7107
+CFD 2D,0.8656,NeuralOperator-FNO 0.6201
+Shallow Water 2D,0.001633,CIDM-Complete 0.001633
