@@ -1,15 +1,17 @@
-# Remaining manuscript evidence files
+# Manuscript evidence synchronization audit
 
-The following manuscript-aligned artifacts were audited and prepared as a completion patch. They have **not** yet been transferred to this GitHub repository through the connected file-writing interface:
+All five manuscript-aligned experiment families are now present on the repository's main branch, including canonical source notebooks and per-run CSVs.
 
-| Repository path | Contents |
-|---|---|
-| `experiments/pde_benchmarks/multiphysics_benchmark/results/seedwise_predictions_publication.csv` | 120 completed runs; 105 original + 15 corrected Diffusion–Sorption |
-| `experiments/pde_benchmarks/multiphysics_benchmark/results/model_performance_summary.csv` | Corrected eight-task results |
-| `experiments/pde_benchmarks/state_consistency/notebooks/causal_self_reencoding.ipynb` | Original state-consistency evaluation notebook, cleared outputs |
-| `experiments/pde_benchmarks/state_consistency/results/seedwise_training_and_evaluation.csv` | 18 completed model/seed experiments and evaluation modes |
-| `experiments/pde_benchmarks/state_consistency/results/rollout_mode_rmse_summary.csv` | Horizon and reencoding-mode RMSE |
-| `experiments/pde_benchmarks/state_consistency/results/latent_state_distance_summary.csv` | Latent-state synchronization and cosine similarity |
-| `experiments/pde_benchmarks/state_consistency/results/reencoding_effects.csv` | Causal self-reencoding effects |
+| Study | Canonical complete records | Record table |
+|---|---:|---|
+| Controlled architecture comparison | 180 | `experiments/pde_benchmarks/controlled_comparison/results/seedwise_predictions.csv` |
+| Corrected eight-task multiphysics benchmark | 120 | `experiments/pde_benchmarks/multiphysics_benchmark/results/seedwise_predictions_publication.csv` |
+| Structural component ablation | 110 | `experiments/pde_benchmarks/component_ablation/results/seedwise_ablation.csv` |
+| Long-horizon forecasting and input-noise diagnostics | 48 | `experiments/pde_benchmarks/long_horizon_evaluation/results/seedwise_training_and_evaluation.csv` |
+| Latent-state consistency and causal self-reencoding | 18 | `experiments/pde_benchmarks/state_consistency/results/seedwise_training_and_evaluation.csv` |
 
-These files must be pushed and verified before the repository can be described as having complete manuscript-level evidence. The curated companion archive additionally contains reference implementation files, method descriptions, and a SHA-256 manifest. Do not substitute preliminary or superseded results.
+The complete public-facing inventory is **476 completed independent experimental records**, not 476 additional model families. The 18 state-consistency training instances each have repeated horizon/mode evaluations. Superseded diffusion–sorption records, unsuccessful preliminary runs, mechanism interaction/rescue studies, and scaling studies not reported in the manuscript are not part of this release.
+
+Original upstream PDEBench input arrays and trained model checkpoints are not redistributed. Notebooks have their archived execution output removed and may require environmental configuration. Run `python scripts/verify_paper_results.py` to validate all five archived record counts and uniqueness constraints. The check does not independently rerun model training.
+
+The accompanying local release archive contains SHA-256 checksums and source selection provenance.
