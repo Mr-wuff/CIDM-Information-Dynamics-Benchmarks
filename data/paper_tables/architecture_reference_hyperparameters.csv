@@ -1,0 +1,16 @@
+Hyperparameter,Reference default,Description
+history length L,4,Number of historical observations
+forecast horizon K,6,Default forecasting rollout steps
+latent dimension D,32,Latent information-state channels
+hidden width,64,Residual/edge network hidden width
+time encoder,enabled,History encoder enabled
+phase encoder,enabled,Phase/spectral encoder enabled
+antisymmetric flux,enabled,Local antisymmetric flux enabled
+hidden reservoir,enabled,Internal unresolved residual branch enabled
+hidden branch coefficient,0.25,Hidden-residual outer contribution weight
+local residual coefficient,0.10,Local residual contribution weight
+step scale initialization,0.18,Transformed with tanh into the effective step scale
+SOC Fourier modes,8 × 8,Fourier modes in the spectral residual branch
+SOC logit scale init,-1.8,Sigmoid-gated initial SOC amplitude
+BER logit scale init,-3.0,Sigmoid-gated initial BER amplitude
+BER outer scale ε,0.05,Outer BER injection scale
