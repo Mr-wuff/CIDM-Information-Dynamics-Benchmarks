@@ -1,0 +1,11 @@
+Setting,Value
+PDE tasks,"Burgers, Reaction-Diffusion 2D, Shallow Water 2D"
+History steps,4 steps
+Training forecast steps,6 steps
+Parameter count,"Approximately 500,000"
+Parameter capacity tolerance,±5%
+Optimizer,AdamW
+Numerical precision,FP32
+Random seeds,10
+Optimizer updates,4000 updates
+Learning-rate selection,Shared LR candidate grid; one selected LR per model
