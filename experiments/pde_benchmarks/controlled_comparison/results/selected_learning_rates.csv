@@ -1,0 +1,7 @@
+model,lr,source
+CIDM-Core,0.0001,A1-R2 equal-budget global-LR qualification
+CIDM-Complete,0.001,A1-R2 equal-budget global-LR qualification
+PDEBench-FNO,0.0030000000000000001,A1-R2 equal-budget global-LR qualification
+PDEBench-U-Net,0.0030000000000000001,A1-R2 equal-budget global-LR qualification
+NeuralOperator-FNO,0.0030000000000000001,A1-R2 equal-budget global-LR qualification
+Transolver,0.00029999999999999997,A1-R2 equal-budget global-LR qualification
