@@ -1,0 +1,57 @@
+[
+  {
+    "task": "burgers",
+    "dim": 1,
+    "channels": 1,
+    "spatial": [
+      1024
+    ],
+    "train_windows": 512,
+    "val_windows": 128,
+    "test_windows": 128,
+    "norm_mean": [
+      0.009922068566083908
+    ],
+    "norm_std": [
+      0.7088813781738281
+    ]
+  },
+  {
+    "task": "diff_react_2d",
+    "dim": 2,
+    "channels": 2,
+    "spatial": [
+      128,
+      128
+    ],
+    "train_windows": 512,
+    "val_windows": 128,
+    "test_windows": 128,
+    "norm_mean": [
+      -0.03626459464430809,
+      -0.02628840133547783
+    ],
+    "norm_std": [
+      0.25706547498703003,
+      0.23268456757068634
+    ]
+  },
+  {
+    "task": "swe_2d",
+    "dim": 2,
+    "channels": 1,
+    "spatial": [
+      128,
+      128
+    ],
+    "train_windows": 512,
+    "val_windows": 128,
+    "test_windows": 128,
+    "norm_mean": [
+      1.0330734252929688
+    ],
+    "norm_std": [
+      0.14040106534957886
+    ]
+  }
+]
