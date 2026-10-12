@@ -1,0 +1,5 @@
+{
+  "source": "diffusion_sorption_corrected",
+  "source_sha256": "2db9492db86a5ed62b6264e30f0d6bcc55b35477fd8dd313cab403ffea7402ca",
+  "notes": "Corrected diffusion\u2013sorption dataset contract; only the corrected seedwise evaluation is published."
+}
