@@ -1,0 +1,12 @@
+Setting,Value
+PDE tasks,Advection 1D; Burgers 1D; Diffusion-Sorption 1D; Reaction-Diffusion 1D; Reaction-Diffusion 2D; CFD 1D; CFD 2D; Shallow Water 2D
+对照模型,"PDEBench-FNO, NeuralOperator-FNO, Transolver, CIDM-core, CIDM-complete"
+History steps,4 steps
+Training forecast steps,6 steps
+Parameter count,"Approximately 500,000"
+Parameter capacity tolerance,±5%
+Optimizer,AdamW
+Numerical precision,FP32
+Random seeds,3
+Optimizer updates,2500 updates
+Learning-rate selection,Shared LR candidate grid; one selected LR per model
