@@ -1,0 +1,4 @@
+CIDM-complete (48-step RMSE),Pure latent,Reencode/12,Reencode/6,Reencode/1
+Advection 1D,0.59939,0.17582,0.02380,0.07101
+Reaction-Diffusion 2D,0.24099,0.02748,0.03582,0.09320
+Shallow Water 2D,0.10765,0.08428,0.11233,0.13650
