@@ -1,0 +1,7 @@
+Model,Implementation source,Model family
+PDEBench-FNO,Official PDEBench implementation,Neural Operator
+NeuralOperator-FNO,Official neuraloperator implementation,Neural Operator
+PDEBench-U-Net,Official PDEBench implementation,FCN (Fully Convolutional Network)
+Transolver,Official Transolver implementation,Transformer
+CIDM-Core,Archived CIDM core architecture,CIDM
+CIDM-Complete,Archived CIDM complete architecture,CIDM
