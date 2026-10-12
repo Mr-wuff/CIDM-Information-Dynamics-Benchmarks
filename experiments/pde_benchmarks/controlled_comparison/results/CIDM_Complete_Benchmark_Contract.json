@@ -1,0 +1,24 @@
+{
+  "benchmark_name": "CIDM-Complete",
+  "executable_mapping": "cidm_architectures.py::CIDM_BER",
+  "archive_sha256": "f9b1cf4ff7630f5540bb3adde20e4c4b81fff3218d9325ea3105bf28b1d97665",
+  "components": [
+    "SpaceEncoder",
+    "TimeHistoryEncoder",
+    "PhaseSpectralEncoder",
+    "SkewChannelRotation",
+    "AntisymmetricFlux",
+    "HiddenReservoirTransfer",
+    "LocalResidual",
+    "LatentSpectralOperatorCore",
+    "BoundaryEnergyReservoir",
+    "FieldDecoder",
+    "SpectralFieldDecoder",
+    "PureLatentRollout"
+  ],
+  "known_forcing_port": "disabled / None because PDEBench headline tasks provide no common forcing field",
+  "static_fields": "not supplied; absent from archived executable implementation",
+  "1d_protocol": "lift to H=1, run exact archived Conv2D implementation, squeeze H=1",
+  "future_target_at_inference": "forbidden",
+  "note": "Figure-level State-Observation Closure is not invented here; archived executable SOC is LatentSpectralOperatorCore."
+}
