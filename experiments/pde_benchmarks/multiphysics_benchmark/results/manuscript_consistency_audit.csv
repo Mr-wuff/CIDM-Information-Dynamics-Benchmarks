@@ -1,0 +1,9 @@
+task,paper_best_model,paper_reported_rmse,source_best_model,source_rmse,matches_paper
+advection_1d,CIDM-Complete,0.004845,CIDM-Complete,0.004845387682748967,True
+burgers_1d,PDEBench-FNO,0.00892,PDEBench-FNO,0.008919500409349935,True
+diff_sorp_1d,NeuralOperator-FNO,0.000535,NeuralOperator-FNO,0.0005350889327899334,True
+reacdiff_1d,PDEBench-FNO,0.001417,PDEBench-FNO,0.0014165793819131665,True
+reacdiff_2d,CIDM-Complete,0.002475,CIDM-Complete,0.002475188668133167,True
+cfd_1d,NeuralOperator-FNO,0.7107,NeuralOperator-FNO,0.7106912583417359,True
+cfd_2d,NeuralOperator-FNO,0.6201,NeuralOperator-FNO,0.6201045102132454,True
+swe_2d,CIDM-Complete,0.001633,CIDM-Complete,0.001632645470260467,True
